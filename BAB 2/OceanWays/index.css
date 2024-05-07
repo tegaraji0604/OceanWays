@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Setel font family untuk seluruh dokumen menjadi Arial atau font sans-serif generik jika Arial tidak tersedia */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    /* Setel warna latar belakang body */
+    margin: 0;
+    /* Hilangkan margin default */
+    padding: 0;
+    /* Hilangkan padding default */
+}
+
+.wrapper {
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.logo img {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 25px;
+    position: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #3887BE;
+    border-bottom: 1px solid #3887BE;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles untuk tautan di dalam navigasi */
+nav a {
+    color: #fff;
+    /* Setel warna tautan di navigasi menjadi putih */
+    text-decoration: none;
+    /* Hilangkan garis bawah dari tautan */
+    margin-right: 10px;
+    /* Tambahkan ruang di sebelah kanan setiap tautan */
+}
+
+/* Styles untuk area konten utama */
+main {
+    padding: 20px;
+    /* Tambahkan padding di dalam area konten utama */
+}
+
+.logo {
+    margin: auto;
+    float: right;
+    /* Mengatur logo*/
+}

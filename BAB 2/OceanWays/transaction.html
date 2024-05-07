@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Pemesanan Tiket</title>
+<link rel="stylesheet" href="transaction.css">
+</head>
+<body>
+    <h2>Form Pemesanan Tiket</h2>
+    <form id="form_transaksi">
+        <nav>
+            <a href="index.html">  Home&nbsp;</a>
+            <a href="login.html">  Login&nbsp;</a>
+            <a href="register.html"> Register</a>
+            
+        </nav>
+        <label for="nama_penumpang">Nama Penumpang:</label><br>
+        <input type="text" id="nama_penumpang" name="nama_penumpang"><br>
+        <label for="rute">Rute Perjalanan:</label><br>
+        <select id="rute" name="rute">
+            <option value="Surabaya - Makassar">Surabaya - Makassar</option>
+            <option value="Banyuwangi - Bali">Banyuwangi - Bali</option>
+            <option value="Bali - Lombok">Bali - Lombok</option>
+            <option value="Lombok - Sumbawa">Lombok - Sumbawa</option>
+            <option value="Surabaya - Balikpapan">Surabaya - Balikpapan</option>
+        </select><br>
+        <label for="harga">Harga Tiket:</label><br>
+        <select id="harga" name="harga">
+            <option value="Ekonomi">Ekonomi - RP.250.000</option>
+            <option value="Eksekutif">Eksekutif - RP.500.000</option>
+            <option value="Bisnis">Bisnis - RP.750.000</option>
+        </select><br>
+        <label for="jumlah">Jumlah Tiket:</label><br>
+        <input type="number" id="jumlah" name="jumlah"><br><br>
+        <button type="submit">Tambah Transaksi</button>
+    </form>
+
+    <h2>Daftar Transaksi</h2>
+    <table id="daftar_transaksi">
+        <thead>
+            <tr>
+                <th>Nama Penumpang</th>
+                <th>Rute Perjalanan</th>
+                <th>Harga Tiket</th>
+                <th>Jumlah Tiket</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Daftar transaksi akan ditampilkan di sini -->
+        </tbody>
+    </table>
+
+   
+</body>
+</html>
